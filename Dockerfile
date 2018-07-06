@@ -38,6 +38,9 @@ RUN su - -c "R -e \"install.packages('devtools', repos = 'http://cran.rstudio.co
 RUN su - -c "R -e \"devtools::install_github('tidyverse/ggplot2')\""
 
 EXPOSE 3838
+
+#ADD ./configs/shyni-server.conf /etc/shyni-server/
+
 #Dashboard Port Configurator
 #echo "Informe qual porta deseja instalar o Dashboard" 
 #read port
