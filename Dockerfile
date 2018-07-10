@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER Deivid Sanches <deividsanches542@gmail.com>
+MAINTAINER Deivid Sanches <deividsanches@gmail.com>
 
 
 #ADD REPOSITORY CRAN RSTUDIO
